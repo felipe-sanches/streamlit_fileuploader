@@ -57,6 +57,8 @@ def data_analysis(file):
 
 def main():
 
+    st.title("Medições Qualidade de Conexão")
+
     #Widget para upload de arquivo
     uploaded_file = st.sidebar.file_uploader("Faça upload do arquivo em EXCEL:")
 
