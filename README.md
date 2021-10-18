@@ -1,2 +1,2 @@
 # streamlit_fileuploader
-Análise Partindo de Arquivo 
+Análise Partindo de Arquivo Upado
