@@ -44,12 +44,12 @@ def data_analysis(file):
 
 
     #plotando boxplot de Download
-    df['Download'].plot(kind='box', vert=False, xlim=(0,5), figsize=(10,3));
+    df['Download'].plot(kind='box', vert=False, figsize=(10,3));
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot(plt.show())
     
     #plotando boxplot de Upload
-    df['Upload'].plot(kind='box', vert=False, xlim=(0,5), figsize=(10,3));
+    df['Upload'].plot(kind='box', vert=False, figsize=(10,3));
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot(plt.show())
 
