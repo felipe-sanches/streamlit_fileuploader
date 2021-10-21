@@ -33,6 +33,7 @@ def data_analysis(file):
         y="Download",
         x="Upload",
         color="score",
+        color_continuous_scale='Bluered_r',
         title="Taxas de Download e Upload",
         labels={
             "Download":"Download (Mbps)",
